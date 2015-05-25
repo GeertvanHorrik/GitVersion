@@ -90,7 +90,8 @@
                 assemblyVersioningScheme, versioningMode, gitTagPrefix, 
                 tag, nextVersion, incrementStrategy, currentBranchConfig.Key, 
                 preventIncrementForMergedBranchVersion, 
-                tagNumberPattern, configuration.ContinuousDeploymentFallbackTag);
+                tagNumberPattern, configuration.ContinuousDeploymentFallbackTag,
+                currentBranchConfig.Value.TrackMergeTarget);
         }
     }
 }

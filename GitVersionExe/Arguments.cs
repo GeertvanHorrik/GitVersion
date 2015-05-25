@@ -15,6 +15,7 @@ namespace GitVersion
         public string TargetUrl;
         public string TargetBranch;
         public string CommitId;
+        public string DynamicRepositoryLocation;
 
         public bool Init;
 
@@ -33,5 +34,6 @@ namespace GitVersion
         public string UpdateAssemblyInfoFileName;
 
         public bool ShowConfig;
+        public bool NoFetch { get; set; }
     }
 }
